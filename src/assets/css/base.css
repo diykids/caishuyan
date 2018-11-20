@@ -5,7 +5,7 @@
 
 body {
     line-height: 150%;
-    background: #fff url(//1.bp.blogspot.com/--C1aJFQPVU4/VkG00HN9PaI/AAAAAAAABLg/PMORSIxvEl4/s000/happy%2525252bkid%2525252bblog%2525252bbackground.png) repeat-x top;        font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+    background: #fff url(//static.fifsky.com/kids/themes/images/header-bg.png) repeat-x top;        font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
     font-size: 14px;
     color: #555555;
 }
@@ -351,7 +351,7 @@ form p.inputting .formtip {
 }
 
 .header-wapper{
-    background: url(//2.bp.blogspot.com/-lBH4pxUDu9w/VkG001qhxwI/AAAAAAAABLo/3k4MWSYXkl0/s000/happy%2525252bkid%2525252bheader%2525252bbgr.png) no-repeat bottom center;
+    background: url(//static.fifsky.com/kids/themes/images/header-bb.png) no-repeat bottom center;
     width: 980px;
     height: 400px;
     color: #2e937a;
@@ -479,7 +479,7 @@ form p.inputting .formtip {
 
 #sidebar h2 {
     padding: 15px 40px;
-    background: url(//1.bp.blogspot.com/-wlZYGyCNCSE/VkG01RDdkVI/AAAAAAAABLs/CFlRlmCig74/s000/sidebarbgr.png) no-repeat left center;
+    background: url(//static.fifsky.com/kids/themes/images/sidebarbgr.png) no-repeat left center;
     font-size: 16px;
     color: #6a3f2f;
     border-bottom: 1px dashed #dcd1ba;
