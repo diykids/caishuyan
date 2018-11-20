@@ -6,10 +6,7 @@
                 <router-link :to="'/article/'+article.id" v-html="markHigh(article.title,$route.query.keyword)"></router-link>
             </h2>
             <div class="entry-meta">
-                by&nbsp;{{article.nick_name}}&nbsp;&nbsp;/&nbsp;&nbsp;<a rel="category tag"
-                                                                         title="查看 默认分类 中的全部文章"
-                                                                         :href="'/categroy/'+article.domain">{{article.name}}</a>&nbsp;&nbsp;/&nbsp;&nbsp;{{article.created_at
-                | formatDate('YYYY-MM-DD HH:mm')}}
+                by&nbsp;{{article.nick_name}}&nbsp;&nbsp;/&nbsp;&nbsp;<router-link :title="'查看 '+article.name+' 中的全部文章'" :to="'/categroy/'+article.domain">{{article.name}}</router-link>&nbsp;&nbsp;/&nbsp;&nbsp;{{article.created_at | formatDate('YYYY-MM-DD HH:mm')}}
             </div>
         </div>
         <div class="entry" v-html="article.content" v-highlight>
