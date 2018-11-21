@@ -5,7 +5,7 @@
             <li class="comment-null" v-if="comments.length === 0">还没有评论!</li>
             <li v-for="(v,k) in comments" :key="k">
                 <a :title="v.name" href="javascript:void(0);" class="avatar"><img width="32" height="32"
-                                                                                  :src="'/api/avatar?name='+v.name"></a>
+                                                                                  :src="url('/api/avatar?name=')+v.name"></a>
                 <div class="comment-doc">
                     <h4><a href="javascript:void(0);" class="author">{{v.name}}</a><span class="actions">{{v.created_at | formatDate('YYYY-MM-DD HH:mm')}}</span>
                     </h4>
@@ -40,6 +40,9 @@
             }
         },
         methods: {
+            url(u){
+              return url(u)
+            },
             submit(e) {
                 this.inputdata.post_id = this.postId
                 axios({
