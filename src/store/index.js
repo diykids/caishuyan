@@ -1,18 +1,18 @@
+import Vue from 'vue'
 import Vuex from 'vuex'
-import Vue from "vue";
+
+import state from './state'
+import mutations from './mutations'
+import actions from './actions'
+import getters from './getters'
+import plugins from './plugins'
 
 Vue.use(Vuex)
 
-export const store = new Vuex.Store({
-    state:{
-        keyword:''
-    },
-    mutations:{
-        setKeyword(state,v) {
-            state.keyword = v
-        },
-    },
-    getters:{},
-    actions:{},
-    modules:{},
+export default new Vuex.Store({
+    state,
+    mutations,
+    getters,
+    actions,
+    plugins
 })

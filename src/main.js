@@ -20,15 +20,6 @@ Vue.directive('highlight',function (el) {
     })
 })
 
-// Vue.directive('is-page', function(el, binding, vnode) {
-//         console.log((vnode.context.$route.path,binding.value,el.className))
-//     if(vnode.context.$route.path === binding.value){
-//         console.log(el.className)
-//         el.className += " active"
-//         console.log(el.className)
-//     }
-//
-// });
 new Vue({
     router,
     store,

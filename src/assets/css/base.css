@@ -651,8 +651,8 @@ form p.inputting .formtip {
 }
 
 .paginator li a:hover {
-    border-color: #06c;
-    background: #06c;
+    border-color: #dcd1ba;
+    background: #dcd1ba;
     color: #fff;
 }
 

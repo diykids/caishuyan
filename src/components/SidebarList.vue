@@ -11,7 +11,7 @@
 
 <script>
     import axios from "axios"
-    import {url} from "../util"
+    import {url} from "../utils"
 
     export default {
         name: "SidebarList",
