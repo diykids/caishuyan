@@ -21,7 +21,7 @@ baseURL = "https://caishuyan.com"
 #  github = 'nanxiaobei'
 #  instagram = 'nan.xiaobei'
 
-  avatar = 'fifsky@gmail.com'
+  avatar = 'https://caishuyan.com/images/avatar.png'
   name = "Shuyan's Blog"
   bio = 'Every day have progress, smiling face every day.'
 
