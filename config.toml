@@ -15,6 +15,7 @@ baseURL = "https://caishuyan.com"
   title = "Shuyan's Blog"
 
   [params]
+  cdnURL = "https://static.fifsky.com/shuyan"
   color = 'linen'
 
 #  twitter = 'nanxiaobei'

@@ -22,7 +22,7 @@
   {{ $custom_css := resources.Get "custom.css" }}
   <!---->
   {{ $css := slice $main_css $custom_css | resources.Concat "main.css" | minify }}
-  <link rel="preload stylesheet" as="style" href="{{ $css.Permalink }}" />
+  <link rel="preload stylesheet" as="style" href="{{ if .Params.cdnURL | and hugo.IsProduction -}}{{ trim .Params.cdnURL  " " }}{{ $css.RelPermalink }}{{- else }}{{ $css.Permalink }}{{- end -}}" />
 
   {{ if and .IsPage (not site.Params.disableHLJS) }}
   <script
