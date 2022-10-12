@@ -1,8 +1,8 @@
 ---
-title: "关于旅行"
+title: "About Me"
 date: 2020-12-24T11:30:03+80:00
 weight: 1
-author: "fifsky"
+author: "Shuyan"
 showToc: false
 TocOpen: false
 draft: false
