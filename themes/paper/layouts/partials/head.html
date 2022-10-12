@@ -40,7 +40,7 @@
   <link
     rel="preload"
     as="image"
-    href="{{ $dark_icon | absURL }}"
+    href="{{ if .Site.Params.cdnURL | and hugo.IsProduction -}}{{ trim .Site.Params.cdnURL  " " }}/{{ $dark_icon }}{{- else }}{{ $dark_icon | absURL }}{{- end -}}"
   />
 
   {{ $avatar_url := $.Scratch.Get "avatar_url" }}
