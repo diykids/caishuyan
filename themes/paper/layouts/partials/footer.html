@@ -4,6 +4,7 @@
     <a class="link" href="{{ `` | absURL }}">{{ site.Title }}</a>
   </div>
 </footer>
+<div id="fireworks" style="position: absolute;top: 0;left: 0"></div>
 <!-- Comments area end -->
 <script type="text/javascript">
   /* Copyright (C) 2013 Justin Windle, http://soulwire.co.uk */
@@ -69,7 +70,7 @@ var particles = [];
 var pool = [];
 
 var demo = Sketch.create({
-  container: document.getElementsByTagName('body')[0]
+  container: document.getElementById( 'container' )
 });
 
 demo.setup = function() {
