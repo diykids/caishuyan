@@ -91,7 +91,7 @@ demo.spawn = function( x, y ) {
     pool.push( particles.shift() );
 
   particle = pool.length ? pool.pop() : new Particle();
-  particle.init( x, y, random( 5, 5 ) );
+  particle.init( x, y, random( 5, 20 ) );
 
   particle.wander = random( 0.5, 2.0 );
   particle.color = random( COLOURS );
