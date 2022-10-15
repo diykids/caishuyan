@@ -63,17 +63,12 @@
 {{ end }}<!---->
 </div>
 <div id="player"></div>
-<script type="application/javascript">
-  const ap = new APlayer({
-    container: document.getElementById('player'),
-    fixed: true,
-    audio: [{
-      name: '千与千寻',
-      artist: '口琴',
-      autoplay: true,
-      url: 'https://caishuyan.com/music.mp3',
-      cover: 'https://p1.music.126.net/agODZkd4jPqQdP30VPWumA==/109951163367251512.jpg?param=90y90',
-    }]
-  });
-</script>
+<meting-js
+        server="netease"
+        fixed="true"
+        autoplay="true"
+        type="playlist"
+        lrc-type="0"
+        id="7690088738">
+</meting-js>
 {{ end }}
