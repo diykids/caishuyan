@@ -42,7 +42,7 @@ url = "/about/"
 weight = 10
 [[menu.main]]
 identifier = "sister"
-name = "My sister"
+name = "My Sister"
 url = "https://caishuyue.com"
 weight = 10
 

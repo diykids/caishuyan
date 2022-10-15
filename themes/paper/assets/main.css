@@ -418,7 +418,7 @@ video {
   height: auto;
 }
 
-html, 
+html,
   body {
   height: 100%;
 }
@@ -900,7 +900,7 @@ body {
 
 .prose {
   --tw-prose-body: #374151;
-  --tw-prose-headings: #111827;
+  --tw-prose-headings: #3f5641;
   --tw-prose-lead: #4b5563;
   --tw-prose-links: #111827;
   --tw-prose-bold: #111827;
@@ -1182,18 +1182,18 @@ body {
 }
 
 .prose-neutral {
-  --tw-prose-body: #404040;
-  --tw-prose-headings: #171717;
+  --tw-prose-body: #3f5641;
+  --tw-prose-headings: #3f5641;
   --tw-prose-lead: #525252;
-  --tw-prose-links: #171717;
-  --tw-prose-bold: #171717;
+  --tw-prose-links: #3f5641;
+  --tw-prose-bold: #3f5641;
   --tw-prose-counters: #737373;
   --tw-prose-bullets: #d4d4d4;
   --tw-prose-hr: #e5e5e5;
-  --tw-prose-quotes: #171717;
+  --tw-prose-quotes: #3f5641;
   --tw-prose-quote-borders: #e5e5e5;
   --tw-prose-captions: #737373;
-  --tw-prose-code: #171717;
+  --tw-prose-code: #3f5641;
   --tw-prose-pre-code: #e5e5e5;
   --tw-prose-pre-bg: #262626;
   --tw-prose-th-borders: #d4d4d4;
@@ -1543,6 +1543,7 @@ body {
 
 .break-words {
   overflow-wrap: break-word;
+  font-style: oblique;
 }
 
 .rounded-full {
@@ -1665,6 +1666,10 @@ body {
   font-weight: 700;
 }
 
+.font-flower {
+  font-family: 'Great Vibes', cursive;
+}
+
 .\!leading-none {
   line-height: 1 !important;
 }
@@ -1676,6 +1681,10 @@ body {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(63 86 65 / var(--tw-text-opacity));
 }
 
 .no-underline {
@@ -1705,7 +1714,7 @@ body {
   transition-property: none !important;
 }
 
-.btn-menu::before, 
+.btn-menu::before,
   .btn-menu::after {
   display: block;
   height: 2px;
@@ -1717,7 +1726,7 @@ body {
   content: var(--tw-content);
 }
 
-.dark .btn-menu::before, .dark 
+.dark .btn-menu::before, .dark
   .btn-menu::after {
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1754,7 +1763,7 @@ article {
   line-height: 1.75rem;
   line-height: 1.9;
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(63 86 65 / var(--tw-text-opacity));
 }
 
 .dark article {

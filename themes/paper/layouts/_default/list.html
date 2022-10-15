@@ -32,7 +32,7 @@
   {{ end }}<!---->
   {{ if site.Params.name }}
   <div>
-    <h1 class="mt-1.5 mb-3 text-3xl font-bold">{{ site.Params.name }}</h1>
+    <h1 class="mt-1.5 mb-1.5 text-2xl font-bold font-flower">{{ site.Params.name }}</h1>
     <div class="break-words">
       {{ site.Params.bio | default (print "Personal blog by " site.Params.name) }}
     </div>
